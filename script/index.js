@@ -45,7 +45,7 @@ console.log(b2);
 
 console.table(bestFriends);
 console.log(bestFriends[bestFriends.length/2]);
-console.log(bestFriends[bestFriends.length/1]);
+console.log(bestFriends[bestFriends.length-1]);
 
 bestFriends.forEach((e)=>{
     ul.innerHTML = `
